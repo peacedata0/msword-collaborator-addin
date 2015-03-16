@@ -169,9 +169,6 @@ namespace CollabAddIn
 
         private void lnkServerLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            // Start background thread to fill the suggested review listbox
-            if (!wrkrSuggestedReviews.IsBusy)
-                wrkrSuggestedReviews.RunWorkerAsync();
             // Navigate to the URL
             System.Diagnostics.Process.Start(lnkServerLink.Text);
         }
