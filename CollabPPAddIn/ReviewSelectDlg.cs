@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using SmartBear.Collab;
 
-namespace CollabAddIn
+namespace CollabPPAddIn
 {
     public partial class ReviewSelectDlg : Form
     {
